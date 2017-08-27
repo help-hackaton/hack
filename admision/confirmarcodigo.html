@@ -22,16 +22,29 @@
     <div class="header">
 <img src="img/arriba.png">
          <div class="row">
-          <form  name="myForm" class="login-form" method="get" action="nuevacontraseña.html">
+          <form  name="myForm" class="login-form" method="get" >
             <h3>Restaurar cuenta</h3>
             <p>Si tu correo y datos son correctos, se te envió un código para recuperar tu contraseña</p>
                   <input type="text" id="codigo" placeholder="Código" required/>
-                      <input type="submit" value="Confirmar"><br>
-                      <center><a href="index.html"><button type="button"  class="buttonlog">Cancelar</button></a></center>
+              <p style ="display: none" id="jaja">El codigo esta incorrecto.</p>
+              
+                      <br>
+              <center><a><button type="button" class="buttonlog" onclick="getnombre()">Confirmar</button></a><a href="index.html"><button type="button"  class="buttonlog">Cancelar</button></a></center>
           </form>
           </div>
           <img src="img/abajo.png" width="1500px">
     </div>
+      <script>
+          function getnombre(){
+            var codigo =document.getElementById('codigo').value;
+             
+              if(codigo=="12345"){
+                  window.location="welcome.html";
+              }else{
+                  document.getElementById('jaja').style.display='block';
+              }
+          }
+      </script>
 
     <script src="/js/vendor/jquery.js"></script>
     <script src="/js/vendor/what-input.js"></script>

@@ -23,17 +23,10 @@
 <img src="img/arriba.png">
          <div class="row">
           <form  name="myForm" class="login-form" method="get" action="cuenta-creada.html">
-            <h3>Validar cuenta</h3>
-            <input type="text" id="correo" placeholder="Correo electrónico" required=/>
-            <input type="text" id="contraseña" placeholder="Contraseña" required/>
-            <input type="text" id="contraseña2"placeholder="Confirmar contraseña" required/>
-            <h3>Información de usuario</h3>
-            <input type="text" id="nombre" placeholder="Nombre(s)"/>
-                  <input type="text" id="apellidoP" placeholder="Apellido Paterno" required/>
-                  <input type="text" id="apellidoM"placeholder="Apellido Materno" required/>
-                  <input type="text" id="fecha" placeholder="Fecha de nacimiento" required/>
-                  <input type="text" id="sexo" placeholder="sexo" required/>
-                  <input type="text" id="ID" placeholder="ID" required/>
+            <h3>Activar cuenta</h3>
+            <input type="text" id="correo" placeholder="correo electronico"/>
+            <input type="text" id="con" placeholder="contraseña"/>
+           
 
            <div>
                   <h3>Verificaci&oacute;n de seguridad</h3>
@@ -41,14 +34,27 @@
                        <p style="font-size: 11px"><b>&iquest;Por qu&eacute; hacer esto?</b><br>
                         Necesitamos asegurar que no eres un robot tratando
                         de engañarnos.</p>
-                      <a href="welcome.html" input type="submit" value="Aceptar"><br>
-                      <center><a href="index.html"><button type="button"  class="buttonlog">Cancelar</button></a></center>
+               <a href="welcome.html" input type="submit" value="Aceptar"></a><br>
+               <p style ="display: none" id="jaja">El correo o cotraseña son incorrectos</p>
+                      <center><a><button type="button" class="buttonlog" onclick="getnom()">Activar Cuenta</button></a>
+                          <a href="index.html"><button type="button"  class="buttonlog">Cancelar</button></a></center>
               </div>
           </form>
           </div>
           <img src="img/abajo.png" width="1500px">
+        
     </div>
-
+<script>
+          function getnom(){
+            var correo =document.getElementById('correo').value;
+              var contrasena=document.getElementById('con').value;
+              if(correo=="dafnesabrina1@gmail.com" && (contrasena=="Hello" || contrasena=="123")){
+                  window.location="confirmarcodigo2.html";
+              }else{
+                  document.getElementById('jaja').style.display='block';
+              }
+          }
+      </script>
     <script src="/js/vendor/jquery.js"></script>
     <script src="/js/vendor/what-input.js"></script>
     <script src="/js/vendor/foundation.js"></script>

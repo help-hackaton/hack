@@ -22,9 +22,9 @@
     <div class="header">
 <img src="img/arriba.png">
          <div class="row">
-          <form  name="myForm" class="login-form" method="get" action="confirmarcodigo.html">
+          <form  name="myForm" class="login-form" method="get" >
             <h3>Restaurar cuenta</h3>
-            <input type="text" id="correo" placeholder="Correo electrónico" required=/>
+            <input type="text" id="correo" placeholder="Correo electrónico" required/>
           <!--  <input type="text" id="contraseña" placeholder="Contraseña" required/>
             <input type="text" id="contraseña2"placeholder="Confirmar contraseña" required/> -->
             <h3>Información de usuario</h3>
@@ -41,14 +41,26 @@
                        <p style="font-size: 11px"><b>&iquest;Por qu&eacute; hacer esto?</b><br>
                         Necesitamos asegurar que no eres un robot tratando
                         de engañarnos.</p>
-                      <input type="submit" value="Aceptar"><br>
-                      <center><a href="index.html"><button type="button"  class="buttonlog">Cancelar</button></a></center>
+                      <br>
+               <p style ="display: none" id="alo">Informacion incorrecta, favor de intentar de nuevo.</p>
+               <a><button type ="button" class="buttonlog" onclick="get()">Aceptar</button></a>
+               <center><a href="index.html"><button type="button"  class="buttonlog">Cancelar</button></a></center>
               </div>
           </form>
           </div>
           <img src="img/abajo.png" width="1500px">
     </div>
-
+<script>
+          function get(){
+            var correo =document.getElementById('correo').value;
+              var id=document.getElementById('ID').value;
+              if(correo=="dafnesabrina1@gmail.com" && id=="A01226000"){
+                  window.location="confirmarcodigo.html";
+              }else{
+                  document.getElementById('alo').style.display='block';
+              }
+          }
+      </script>
     <script src="/js/vendor/jquery.js"></script>
     <script src="/js/vendor/what-input.js"></script>
     <script src="/js/vendor/foundation.js"></script>
