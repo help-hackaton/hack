@@ -8,11 +8,10 @@ div#completo{
 	width:70%;
 	height:70%;
 padding-top:2%;
-margin-top: 2%;
+
 	margin-left:15%;
 	background: rgba(255, 255,255, 0.80);
-	opacity: 1.0;
-    filter: alpha(opacity=100);
+
 }
 
 .boton_personalizado{
@@ -20,8 +19,9 @@ margin-top: 2%;
     padding: 10px;
     font-weight: 600;
     font-size: 23px;
-    color: #ffffff;
-    background-color:rgba(255, 255,255, 0.40);
+    color:#d01c1c;
+    background:rgba(255, 255,255, .12);
+
 
   }
   .boton_personalizado:hover{
@@ -33,6 +33,7 @@ margin-top: 2%;
 
     padding: 10px;
     font-weight: 600;
+
     color: #ffffff;
     background-color:rgba(255, 255,255, 0.40);
 
