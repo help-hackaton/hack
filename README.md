@@ -1,19 +1,46 @@
-Bienvenido a nuestro proyecto!
-===================
-**HackMty**
 
-**Team HELP**
 
-**Proyecto de HackMty 2017**
+## Bienvenidos  a nuestro projecto ##
 
-**Equipo conformado por:**
-Dafne Sabrina Medina Garc韆
-Diego Issac C醨denas Aranda
-Luis Javier Flores G髆ez
-Sandra Guadalupe Alcaraz Amezcua
+Proyecto de HackMty 2017
+**Team**: HELP 
+**Mesa**: 3
+**Proyecto:** SMART AND FRIENDLY HELP DESK - SIGMA
 
-**Proyecto:** 
-SIGMA
+**Integrantes del Equipo:**
 
-**Descripci髇:**
-P醙ina web que se encarga de resolver los principales problemas de la empresa SIGMA de manera eficiente, ahorrando costos de tiempo en el personal.
+ - Dafne Sabrina Medina Garc铆a 
+ - Diego Issac C谩rdenas Aranda 
+ - Sandra Guadalupe Alcaraz Amezcua 
+ - Luis Javier Flores G贸mez
+
+**Descripci贸n:** P谩gina web que se encarga de resolver los principales problemas de la empresa SIGMA de manera eficiente, ahorrando costos de tiempo en el personal.
+
+**Objetivo:** Mejorar el servicio, reducir el tiempo de respuesta y disminuir el n煤mero de llamadas a las mesas de ayuda (Help Desk) con el fin de disminuir los costos, mediante una herramienta que d茅 soluci贸n a los problemas m谩s comunes antes de que lleguen a un agente.
+
+**Problemas identificados y solucionados:**
+
+ - Activaci贸n de Usuario
+ - Resetear contrase帽a olvidada
+ - Cambiar nueva contrase帽a
+ - Cancelaci贸n de ticket
+ - Solicitar nuevo ticket
+ - Historial de tickets
+ - Acceso a Sigma Web
+ - Asesor铆a General
+
+**Contrase帽as de acceso:**
+*Informaci贸n para activar usuario o iniciar sesi贸n*
+correo: dafnesabrina1@gmail.com o Dafne
+contrase帽a: 123 o Hello
+
+*Validaci贸n de c贸digo*
+C贸digo de validaci贸n: 12345
+
+*Informaci贸n para resetear contrase帽a*
+Nombre (s): Dafne
+Apellido Paterno: Medina
+Apellido Materno: Garc铆a
+Sexo: femenino
+Fecha de Nacimiento: 14/10/96
+ID: A01226000
