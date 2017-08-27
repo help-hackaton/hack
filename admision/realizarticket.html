@@ -32,26 +32,34 @@
   <a class="boton_personalizado" href="contacto.html">Contacto</a>
   <a class="boton_personalizado" href="ayuda.html">Ayuda</a>
 			<br></br>
-            <h3 style="color:rgb(208, 31, 31);"><b>Bienvenida Dafne Medina </b></h3>
-			 <div id=texto>
-				 <h5><b>¿Qué desea hacer?</b></h5>
-		 	<p>En este apartado podrá realzar los tickets de los clientes, cancelar tickets, revisar la información de los tickets realizados de una manera fácil desde su dispositivo móvil</p>
-				 <img src="img/joven.png" width="250px">
+      <h2 style="color:rgb(208, 31, 31);"><b>Bienvenido(a) Dafne</b></h2>
+
+ <div id=texto>
+   <h5> Realizar ticket</h5>
+   <hr>
+   <h5><b>Ingrese los datos del cliente y la venta para realizar el ticket</b></h5>
+      <form  name="myForm" method="get" action="alert("hecho")">
+        <input type="text" id="cliente" placeholder="Cliente" required/>
+        <input type="text" id="concepto" placeholder="Concepto" required/>
+        <input type="text" id="total" placeholder="Total" required/>
+        <a href="ticketrealizado.html"><button type="button" class="buttonlog">Realizar ticket</button></a>
+    </form>
+
             </div>
 			 <div id=opciones>
 
 			<a  class="mi-boton">
-
-            <a href="realizarticket.html"> <img src="img/realizar.png"></a>
+             <img src="img/realizar2.png"></a>
 			<p></p>
-				 <a  class="mi-boton">
-					<a href="cancelarticket.html">  <img src="img/cancelar.png" width="140px"></a>
+				 <a  href="cancelarticket.html" class="mi-boton">
+					 <img src="img/cancelar.png" width="140px"></a>
 		<p></p>
-				  <a href="registroticket.html" class="mi-boton"> <img src="img/registro.png" width="140px"></a>
+				 <a  href="registroticket.html" class="mi-boton"> <img src="img/registro.png" width="140px"></a>
 		<p></p>
 				 <a  href="http://www.sigma-alimentos.com" class="mi-boton"> <img src="img/sigmaweb.png" width="140px"></a>
-
 				 <br></br>
+
+
 			 </div>
 
       	 <!--  </form> -->
@@ -59,18 +67,10 @@
             <img src="img/abajo.png" width="1500px">
     </header>
     </div>
-
     <script src="/js/vendor/jquery.js"></script>
     <script src="/js/vendor/what-input.js"></script>
     <script src="/js/vendor/foundation.js"></script>
     <script src="/js/app.js"></script>
     <script src="js/index.html"></script>
-
-
-
   </body>
-
-
-
-
 </html>
