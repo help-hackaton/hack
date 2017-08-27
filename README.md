@@ -30,14 +30,18 @@ Proyecto de HackMty 2017
  - Asesoría General
 
 **Contraseñas de acceso:**
+
 *Información para activar usuario o iniciar sesión*
+
 correo: dafnesabrina1@gmail.com o Dafne
 contraseña: 123 o Hello
 
 *Validación de código*
+
 Código de validación: 12345
 
 *Información para resetear contraseña*
+
 Nombre (s): Dafne
 Apellido Paterno: Medina
 Apellido Materno: García
