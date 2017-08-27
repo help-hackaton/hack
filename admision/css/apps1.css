@@ -373,7 +373,7 @@ input:focus ~ .highlight {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 230%;
+    height: 200%;
     padding-bottom: 3rem;
     font-family: 'Whitney', sans-serif;
 
