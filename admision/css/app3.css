@@ -3,25 +3,34 @@
 @font-face { font-family: Whitney; font-weight: 100; src: url('../fonts/Whitney-Light.otf');}
 @font-face { font-family: Whitney; font-weight: 600; src: url('../fonts/Whitney-Medium.otf');}
 @font-face { font-family: Whitney; font-weight: 500; src: url('../fonts/Whitney-Semibold.otf');}
-
+div#texto2{
+	
+	float:right;
+	width:50%;
+	height:90%;
+}
 div#completo{
 	width:70%;
-	height:70%;
+	height:650px;
 padding-top:2%;
 
 	margin-left:15%;
 	background: rgba(255, 255,255, 0.80);
 
 }
-div#completo2{
-	width:70%;
-	height:70%;
-padding-top:2%;
 
-	margin-left:15%;
-background: rgba(255, 255,255, 0.0);
-
+div#spacio{
+	margin-left:10%;
+	margin-right:10%;
+	
 }
+div#cuadroRojo{
+	width:300px;
+	height:350px;
+	margin-left:100px;
+	background: #d01c1c;
+}
+
 .boton_personalizado{
     text-decoration: none;
     padding: 10px;
@@ -29,16 +38,9 @@ background: rgba(255, 255,255, 0.0);
     font-size: 23px;
     color:#d01c1c;
     background:rgba(255, 255,255, .12);
-  }
-	.boton_personalizado2{
-	    text-decoration: none;
-	    padding: 10px;
-	    font-weight: 600;
-	    font-size: 23px;
-	    color:#d01c1c;
-	    background:rgba(255, 255,255, .20);
-	  }
 
+
+  }
   .boton_personalizado:hover{
     color: #d01c1c;
     background-color: rgba(255, 255,255, 0.70);
@@ -58,7 +60,9 @@ background: rgba(255, 255,255, 0.0);
 
 }
 
+
 div#texto{
+	
 	float:right;
 	width:70%;
 	height:90%;
@@ -431,19 +435,6 @@ input:focus ~ .highlight {
 }
 
 .header{
-	background: url(../img/madera.jpg) 20% 20% no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 95%;
-    padding-bottom: 3rem;
-    font-family: 'Whitney', sans-serif;
-
-}
-
-.header_azul{
 	background: url(../img/madera.jpg) 20% 20% no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
