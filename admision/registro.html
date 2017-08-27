@@ -15,30 +15,25 @@
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="css/apps1.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <script type="text/javascript" src="js/registro.js"></script>
     </header>
   <body>
 
     <div class="header">
 <img src="img/arriba.png">
          <div class="row">
-          <form class="login-form">
-
+          <form  name="myForm" class="login-form" method="get" action="cuenta-creada.html">
             <h3>Validar cuenta</h3>
-            <input type="text" placeholder="Correo electrónico"/>
-            <input type="text" placeholder="Contraseña"/>
-            <input type="text" placeholder="Confirmar contraseña"/>
+            <input type="text" id="correo" placeholder="Correo electrónico" required=/>
+            <input type="text" id="contraseña" placeholder="Contraseña" required/>
+            <input type="text" id="contraseña2"placeholder="Confirmar contraseña" required/>
             <h3>Información de usuario</h3>
-            <input type="text" placeholder="Nombre(s)"/>
-                  <input type="text" placeholder="Apellido Paterno"/>
-                  <input type="text" placeholder="Fecha de nacimiento"/>
-                  <input type="text" placeholder="Apellido Materno"/>
-                  <input type="text" placeholder="sexo"/>
-                  <input type="text" placeholder="ID"/>
-                  <input type="text" placeholder="Apellido Paterno"/>
-                  <input type="text" placeholder="Fecha de nacimiento"/>
-                  <input type="text" placeholder="Apellido Materno"/>
-                  <input type="text" placeholder="sexo"/>
-                  <input type="text" placeholder="ID"/>
+            <input type="text" id="nombre" placeholder="Nombre(s)"/>
+                  <input type="text" id="apellidoP" placeholder="Apellido Paterno" required/>
+                  <input type="text" id="apellidoM"placeholder="Apellido Materno" required/>
+                  <input type="text" id="fecha" placeholder="Fecha de nacimiento" required/>
+                  <input type="text" id="sexo" placeholder="sexo" required/>
+                  <input type="text" id="ID" placeholder="ID" required/>
 
            <div>
                   <h3>Verificaci&oacute;n de seguridad</h3>
@@ -46,10 +41,9 @@
                        <p style="font-size: 11px"><b>&iquest;Por qu&eacute; hacer esto?</b><br>
                         Necesitamos asegurar que no eres un robot tratando
                         de engañarnos.</p>
-                        <a href="cuenta-creada.html"><button type="button" class="button">Acepto crear mi cuenta</button></a>
-                        <a href="index.html"><button type="button" class="button">Cancelar</button></a>
+                      <input type="submit" value="Aceptar"><br>
+                      <center><a href="index.html"><button type="button"  class="buttonlog">Cancelar</button></a></center>
               </div>
-
           </form>
           </div>
           <img src="img/abajo.png" width="1500px">
