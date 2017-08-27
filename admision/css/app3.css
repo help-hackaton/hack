@@ -1,78 +1,76 @@
-@font-face { font-family: Whitney; font-weight: 200; src: url('../fonts/Whitney-Book.otf'); } 
+@font-face { font-family: Whitney; font-weight: 200; src: url('../fonts/Whitney-Book.otf'); }
 @font-face { font-family: Whitney; font-weight: 800; src: url('../fonts/Whitney-Bold.otf');}
 @font-face { font-family: Whitney; font-weight: 100; src: url('../fonts/Whitney-Light.otf');}
 @font-face { font-family: Whitney; font-weight: 600; src: url('../fonts/Whitney-Medium.otf');}
 @font-face { font-family: Whitney; font-weight: 500; src: url('../fonts/Whitney-Semibold.otf');}
+div#texto2{
+	
+	float:right;
+	width:50%;
+	height:90%;
+}
 div#completo{
 	width:70%;
-	heght:70%;
-	margin-left:15%;
-	background: rgba(255, 255,255, 0.40);
-	opacity: 1.0;
-    filter: alpha(opacity=100);
-}
-<<<<<<< HEAD
-=======
-div#completo2{
-	width:70%;
-	height:70%;
+	height:650px;
 padding-top:2%;
 
 	margin-left:15%;
-background: rgba(255, 255,255, 0.0);
+	background: rgba(255, 255,255, 0.80);
 
 }
->>>>>>> sandra
+
+div#spacio{
+	margin-left:10%;
+	margin-right:10%;
+	
+}
+div#cuadroRojo{
+	width:300px;
+	height:350px;
+	margin-left:100px;
+	background: #d01c1c;
+}
+
 .boton_personalizado{
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
     font-size: 23px;
-<<<<<<< HEAD
-    color: #ffffff;
-    background-color:rgba(255, 255,255, 0.40);
-    
-=======
     color:#d01c1c;
     background:rgba(255, 255,255, .12);
->>>>>>> sandra
-  }
-	.boton_personalizado2{
-	    text-decoration: none;
-	    padding: 10px;
-	    font-weight: 600;
-	    font-size: 23px;
-	    color:#d01c1c;
-	    background:rgba(255, 255,255, .20);
-	  }
 
+
+  }
   .boton_personalizado:hover{
     color: #d01c1c;
     background-color: rgba(255, 255,255, 0.70);
   }
 
 .mi-boton{
-   
+
     padding: 10px;
     font-weight: 600;
+
     color: #ffffff;
     background-color:rgba(255, 255,255, 0.40);
-    
+
   }
 .mi-boton:hover{
-	
-	
+
+
 }
 
+
 div#texto{
+	
 	float:right;
 	width:70%;
-	heght:90%;
+	height:90%;
 }
 
 div#opciones{
 	width:15%;
-	heght:90%;
+	height:90%;
 }
 
 body{
@@ -99,7 +97,7 @@ body{
   vertical-align: middle;
   border: 1px solid transparent;
   border-radius: 0;
-  padding: 0.85em 1em;  
+  padding: 0.85em 1em;
   font-size: 0.8rem;
   background-color: #6EC4E8;
   color: #fefefe; } {
@@ -202,7 +200,7 @@ body{
     font-size: 25px;
     font-family: 'Whitney', sans-serif;
     text-transform: uppercase
-    
+
 }
 .h2-header{
     position: relative;
@@ -233,7 +231,7 @@ body{
 }
 
 .bar {
-    
+
 }
 
 
@@ -266,7 +264,7 @@ body{
 
 
 
-hgroup { 
+hgroup {
 	text-align:center;
 
 }
@@ -301,7 +299,7 @@ input:focus { outline: none; }
 /* Label */
 
 label {
-	color: #999; 
+	color: #999;
 	font-size: 18px;
 	font-weight: normal;
 	position: absolute;
@@ -334,12 +332,12 @@ input:focus ~ label, input.used ~ label {
 
 .bar:before, .bar:after {
 	content: '';
-	height: 2px; 
+	height: 2px;
 	width: 0;
-	bottom: 1px; 
+	bottom: 1px;
 	position: absolute;
-	background: #4a89dc; 
-	-webkit-transition:all 0.2s ease; 
+	background: #4a89dc;
+	-webkit-transition:all 0.2s ease;
 	transition: all 0.2s ease;
 }
 
@@ -357,9 +355,9 @@ input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
 
 .highlight {
 	position: absolute;
-	height: 60%; 
-	width: 100px; 
-	top: 25%; 
+	height: 60%;
+	width: 100px;
+	top: 25%;
 	left: 0;
 	pointer-events: none;
 	opacity: 0.5;
@@ -437,20 +435,6 @@ input:focus ~ .highlight {
 }
 
 .header{
-    background: url(../img/header.jpg) 20% 20% no-repeat;
-    
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 95%;
-    padding-bottom: 3rem;
-    font-family: 'Whitney', sans-serif;
-
-}
-
-.header_azul{
 	background: url(../img/madera.jpg) 20% 20% no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -460,7 +444,7 @@ input:focus ~ .highlight {
     height: 130%;
     padding-bottom: 3rem;
     font-family: 'Whitney', sans-serif;
-    
+
 }
 
 #info-bar{
