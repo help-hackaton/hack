@@ -415,6 +415,7 @@ input:focus ~ .highlight {
 }
 
 .header{
+	background: url(../img/madera.jpg) 20% 20% no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
